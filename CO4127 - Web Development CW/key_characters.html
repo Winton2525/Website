@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CO4127 Key Characters</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="js/darkmode.js"></script>
+    <script defer src="js/formControl.js"></script>
+    <script defer src="js/amaterasu.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="narutotitle">
+            <a href="index.html">
+                <img src="img/Naruto_logo.png" alt="Naruto Logo" class="logo">
+            </a>
+        </div>
+        <nav>
+            <input type="checkbox" id="darkmode-toggle">
+            <label for="darkmode-toggle" class="darkmode-label"></label>
+            <ul>
+                <li><a href="naruto_bio.html">NARUTO</a></li>
+                <li><a href="sasuke_bio.html">SASUKE</a></li>
+                <li><a href="key_characters.html">KEY CHARACTERS</a></li>
+                <li><a href="fights.html">FIGHTS</a></li>
+            </ul>
+            <button class="open-button" onclick="openForm()">Login</button>
+            <div class="form-popup" id="myForm">
+                <form class="form-container" onsubmit="return submitForm()">
+                    <h1>Login</h1>
+                
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" class="btn2">Login</button>
+                    <button type="button" class="btn2 cancel" onclick="closeForm()">Close</button>
+                
+                    <div id="notification" class="notification"></div>
+                </form>
+            </div>
+        </nav>
+        <div class="content">
+            <h2 class="anim">Sakura<br>Haruno<br></h2>
+            <img src="img/Sakura_Haruno_Profile.png" alt="Sakura's Face" class="center anim"> <!-- .png from Hero Fandom website -->
+            <p class="anim"><i>"I've always considered myself to be a true ninja… but those were just empty words, because Sasuke and Naruto were always in the lead! But now it's my turn to take the lead, and all of you can watch me from the background!"</i> - Sakura Haruno<br><br>
+                <br>
+                <b>Goal:</b> To marry Sasuke Uchiha and become a medical ninja.<br>
+                <br>
+                <b>Description:</b> The final member of Team 11. Head-strong, coupled with a mean temper and an incredible intellect.<br>
+                She excels in all of her classes and is the glue that holds Team 11 together.<br>
+                <br>
+                <b>Later Years:</b> Under the personal tutelage of the legendary Sanin, Lady Tsunade (The Fifth Hokage), Sakura becomes an incredible medical ninja and plays a vital role during "The Fourth Great Ninja War".<br>
+                After the final battle between Naruto and Sasuke, Sakura starts a relationship with Sasuke leading to their eventual marriage. The two have a child called Sarada Uchiha who has also awakened her sharigan.
+            </p>
+
+            <h2 class="anim">Kakashi<br>Hatake<br></h2>
+            <img src="img/Kakashi_Hatake.png" alt="Kakashi's Face" class="center anim"> <!-- .png from Giant Bomb website -->
+            <p class="anim"><i>"In the ninja world, those who break the rules are trash, that's true, but those who abandon their comrades are worse than trash."</i> - Kakashi Hatake<br><br>
+                <br>
+                <b>Goal:</b> To protect his friends and the Ninja world from oncoming evil threats.<br>
+                <br>
+                <b>Description:</b> After losing his parents and closest friends during "The Third Great Ninja War", Kakashi became stern, aloof and cold towards other.<br>
+                While on a high-level mission with his friend Obito Uchiha, Kakashi was entrusted with Obito's right eye before he died. Obito had just awakened his Sharingan. With this eye Kakashi earned the nickname "The Copy Ninja", able to read his opponents movements and copy their Jutsu.<br>
+                <br>
+                <b>Later Years:</b> Kakashi has mastered over a thousand Jutsu and uses them all in "The Forth Great Ninja War". Kakashi was also informed that he would become The Sixth Hokage once the war was over.<br>
+                Kakashi came face to face with the masked man behind the war, the identity of whom shock him. Kakashi served as Hokage for Konoha allowing Naruto to prepare for the role. 
+            </p>
+        </div>
+        <img src="img/Characters.png" id="amaterasu" alt="Character line-up" class="feature-img"> <!-- .png from UT website -->
+    </div>
+    <footer>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+            
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CO4127 Naruto Biography</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="js/darkmode.js"></script>
+    <script defer src="js/formControl.js"></script>
+    <script defer src="js/shadowClone.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="narutotitle">
+            <a href="index.html">
+                <img src="img/Naruto_logo.png" alt="Naruto Logo" class="logo">
+            </a>
+        </div>
+        <nav>
+            <input type="checkbox" id="darkmode-toggle">
+            <label for="darkmode-toggle" class="darkmode-label"></label>
+            <ul>
+                <li><a href="naruto_bio.html">NARUTO</a></li>
+                <li><a href="sasuke_bio.html">SASUKE</a></li>
+                <li><a href="key_characters.html">KEY CHARACTERS</a></li>
+                <li><a href="fights.html">FIGHTS</a></li>
+            </ul>
+            <button class="open-button" onclick="openForm()">Login</button>
+            <div class="form-popup" id="myForm">
+                <form class="form-container" onsubmit="return submitForm()">
+                    <h1>Login</h1>
+                
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" class="btn2">Login</button>
+                    <button type="button" class="btn2 cancel" onclick="closeForm()">Close</button>
+                
+                    <div id="notification" class="notification"></div>
+                </form>
+            </div>
+        </nav> 
+        <div class="content">
+            <h2 class="anim">Naruto<br>Uzumaki<br></h2>
+            <p class="anim"><i>"I never go back on my word. That's my Nindo, my Ninja way!"</i> - Naruto Uzumaki<br>
+                <br>
+                <b>Goal:</b> To become the Hokage. A ninja legend.<br>
+                <br>
+                <b>Description:</b> A young Ninja with the sprit of the malevolent fox demon - The Nine Tails - trapped within him.<br>
+                Naruto is a blonde, spiky haired, young boy with a chip on his sholder after being ostracised by his community.<br>
+                To be accepted and respected, he resolves himself to become Konoha's Hokage and surpass all previous leaders, no matter the difficulties.<br>
+                Naruto, while on his path, forms the friendship his initally lacked and despite the hardships he faces, he eventually receives the acknowledgement he deserves. Naruto is proclaimed the Hero of the Hidden Leaf and eventually the Seventh Hokage!<br>
+                <br>
+                <b>Family:</b> Naruto's father Minato Namikaze, the Fourth Hokage and his mother Kushina Uzumaki, the previous jinchuriki of The Nine Tails - died the same day Naruto was born. Naruto was raised by his community, though under the watchful eyes of the Elders.<br>
+                Naruto's Godfather Jiraiya, the famed "Toad Sage" and legendary Sanin took charge of Naruto when he reached the age of 12 - teaching him his ninja ways becoming Naruto's Master - like his father before him.<br>
+                <br>
+                <b>Later Years:</b > Naruto became Hokage at 29 years old, meaning he was one of the youngest Kage in history. He married Hinata Hyuga and together they have 2 children, Boruto and Himawari Uzumaki.<br>
+                Naruto is considered the most powerful Ninja in the current age. He has mastered all five Chakra Natures and surpassed all previous Kage. He has achieved his goals and is happy.
+            </p>
+        </div>
+        <img src="img/Naruto_Uzumaki_Shippuden.png" id="shadowclone" alt="Naruto Aged 15" class="feature-img"> <!-- .png from Hero Fandom website -->
+    </div>
+    <footer>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

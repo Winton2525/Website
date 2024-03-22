@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CO4127 Fights</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="js/darkmode.js"></script>
+    <script defer src="js/formControl.js"></script>
+    <script defer src="js/8thGates.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="narutotitle">
+            <a href="index.html">
+                <img src="img/Naruto_logo.png" alt="Naruto Logo" class="logo">
+            </a>
+        </div>
+        <nav>
+            <input type="checkbox" id="darkmode-toggle">
+            <label for="darkmode-toggle" class="darkmode-label"></label>
+            <ul>
+                <li><a href="naruto_bio.html">NARUTO</a></li>
+                <li><a href="sasuke_bio.html">SASUKE</a></li>
+                <li><a href="key_characters.html">KEY CHARACTERS</a></li>
+                <li><a href="fights.html">FIGHTS</a></li>
+            </ul>
+            <button class="open-button" onclick="openForm()">Login</button>
+            <div class="form-popup" id="myForm">
+                <form class="form-container" onsubmit="return submitForm()">
+                    <h1>Login</h1>
+                
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" class="btn2">Login</button>
+                    <button type="button" class="btn2 cancel" onclick="closeForm()">Close</button>
+                
+                    <div id="notification" class="notification"></div>
+                </form>
+            </div>
+        </nav>
+        <div class="content">
+            <h2 class="anim">Might Guy VS.<br>Madara Uchiha</h2>
+            <p class="anim"><i>"I, Madara, declare that you are the strongest of them all!"</i> - Madara Uchiha<br>
+                <br>
+                On the 20th of March 2014, Chapter 669 came out where Might Guy fights Madara Uchiha in order to save his friends and allys giving them time to flee. At this point in the war, Madara has been fully reanimated and has absorbed the soul of the Ten-Tails - transcending into a form of godhood.<br>
+                <br>
+                Ninjutsu has no affect on Madara as the Ten-Tails Jinchuriki, the only thing that can harm him is taijutsu and as a master of Martial Arts, Might Guy is the only one who stands a chance.<br>
+                <br>
+                However, Madara is so powerful at this point, Guy has to resort to using "The 8th Inner Gates Formation". Otherwise known as the Gate of Death.<br>
+                When the Gate of Death is opened, it gives the user insane power, in cost of the users life.<br>
+                Finally, someone can give Madara a <b>true</b> fight. Pushing Madara to his limits, but not before Guy hits his limits first. With no other options, Guy charges up one last secret technique: "Night Guy". Guy goes all out, moving at such a speed (amplified by the power of the Gate of Death), time is bent in the process.<br>
+                Before Guy releases his "Night Guy" technique. Madara, a man who has fought Shinobi Legends, acknowledges Guys strength, declaring that he is "the strongest of them all".<br>
+                <br>
+                This fight represents everything people love about the story of Naruto. Natural-Born talent Vs. Hardwork and perseverance. The result of the fight are not important, because to Guy - all that mattered were the few minutes he gave his friends to escape. 
+            </p>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/MhTswovHb3U?si=enZmJqR31insjWCE" title="Storm Master: Might Guy VS Madara Uchiha Opening" allowfullscreen class="anim"></iframe>
+        </div>
+        <img src="img/Mightguy.png" id="EightGate" alt="Child Naruto Uzumaki" class="feature-img"> <!-- .png from Fandom website -->
+    </div>
+    <footer>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+   
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CO4127 Sasuke Biography</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="js/darkmode.js"></script>
+    <script defer src="js/formControl.js"></script>
+    <script defer src="js/chidori.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="narutotitle">
+            <a href="index.html">
+                <img src="img/Naruto_logo.png" alt="Naruto Logo" class="logo">
+            </a>
+        </div>
+        <nav>
+            <input type="checkbox" id="darkmode-toggle">
+            <label for="darkmode-toggle" class="darkmode-label"></label>
+            <ul>
+                <li><a href="naruto_bio.html">NARUTO</a></li>
+                <li><a href="sasuke_bio.html">SASUKE</a></li>
+                <li><a href="key_characters.html">KEY CHARACTERS</a></li>
+                <li><a href="fights.html">FIGHTS</a></li>
+            </ul>
+            <button class="open-button" onclick="openForm()">Login</button>
+            <div class="form-popup" id="myForm">
+                <form class="form-container" onsubmit="return submitForm()">
+                    <h1>Login</h1>
+                
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" class="btn2">Login</button>
+                    <button type="button" class="btn2 cancel" onclick="closeForm()">Close</button>
+                
+                    <div id="notification" class="notification"></div>
+                </form>
+            </div>
+        </nav>
+        <div class="content">
+            <h2 class="anim">Sasuke<br>Uchiha<br></h2>
+            <p class="anim"><i>"I Hate A Lot Of Things, And I Don't Particularly Like Anything."</i> - Sasuke Uchiha<br>
+                <br>
+                <b>Goal:</b> To kill his older brother, Itachi Uchiha, who massacared their entire family and clan.<br>
+                <br>
+                <b>Description:</b> Sasuke is a talented young Uchiha, gifted with the sharingan - an Ocular <a href="https://naruto.fandom.com/wiki/Kekkei_Genkai">Kekkei Genkai.</a>
+                The sharingan enhances the visual abilities of the user, however with time and effort, the sharingan can be mastered, and with that mastery - a host of secrets to be unlocked.<br>
+                Throughout the manga and anime, Sasuke is an antisocial, cold and distant individual - and yet despite this, is respected and idiolised by all within the village (he is the complete opposite to Naruto and his situation).<br>
+                After his mother and father were slaughtered by his old brother (Itachi), Sasuke made it his lifes mission to become as strong as possible. With this strength - avenge his clan by killing his brother.<br>
+                Since the slaughter, Itachi has become even more powerful and has mastered his sharigan, transforming it into the Mangekyō.<br>
+                <br>
+                <b>Family:</b> Sasuke is a member of the Uchiha clan, one of the three oldest families going back to the founding of Konoha - recognisable from their dōjutsu: The <b>Sharigan</b>. Only a few select members of the clan have had the dōjutsu manifest.<br>
+                Sasuke is considered the last of the Uchiha, once his family were all killed and his elder brother became a rogue ninja.<br>
+                <br>
+                <b>Later Years:</b> Many years later Sasuke kills Itachi, however once he learns the truth behind Itachi's actions - Sasuke vows to kill the village elders and then becoming the Hokage himself, and use the position to "change the way of the world".<br>
+                Naruto and Sasuke find themselves on idiologically aposed, both realising the world must change, but Naruto believes it can be done with love, while Sasuke with fear.<br>
+                Naruto and Sasuke fight in mortal combat, Naruto wins and spares his once best friend. Sasuke sees how his rage blinded him...
+            </p>
+        </div>
+        <img src="img/Sasuke_Uchiha.png" id="chidori" alt="Child Sasuke Uchiha" class="feature-img"> <!-- .png from SEIKO Watch website -->
+    </div>
+    <footer>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+            
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

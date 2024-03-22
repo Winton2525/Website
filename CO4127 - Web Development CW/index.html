@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CO4127 Naruto Home</title>
+    <link rel="icon" href="img/favicon.ico"> <!-- Adapted from W3Schools, (Jenielle, 2010) -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="js/darkmode.js"></script> <!-- Linked to JavaScript for darkmode, use defer to run last to avoid bugs -->
+    <script defer src="js/formControl.js"></script> <!-- Linked to JavaScript for popup menu, use defer to run last to avoid bugs -->
+    <script defer src="js/rasengan.js"></script> <!-- Linked to JavaScript for audio file, use defer to run last to avoid bugs -->
+</head>
+<body>
+    <div class="hero">
+        <div class="narutotitle">
+            <a href="index.html">
+                <img src="img/Naruto_logo.png" alt="Naruto Logo" class="logo"> <!-- Naruto Logo (Wikipedia, 2013) -->
+            </a>
+        </div>
+        <nav>
+            <input type="checkbox" id="darkmode-toggle"> <!-- Adapted from 2 different YouTube Videos (Red Stapler, 2022) & (GreatStack, 2021) -->
+            <label for="darkmode-toggle" class="darkmode-label"></label>
+            <ul>
+                <li><a href="naruto_bio.html">NARUTO</a></li>
+                <li><a href="sasuke_bio.html">SASUKE</a></li>
+                <li><a href="key_characters.html">KEY CHARACTERS</a></li>
+                <li><a href="fights.html">FIGHTS</a></li>
+            </ul>
+            <button class="open-button" onclick="openForm()">Login</button> <!-- Adapted from W3Schools -->
+            <div class="form-popup" id="myForm">
+                <form class="form-container" onsubmit="return submitForm()">
+                    <h1>Login</h1>
+                
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" class="btn2">Login</button>
+                    <button type="button" class="btn2 cancel" onclick="closeForm()">Close</button>
+                
+                    <div id="notification" class="notification"></div>
+                </form>
+            </div>
+        </nav> 
+        <div class="content">
+            <h2 class="anim">Enter<br>Naruto Uzumaki</h2>
+            <p class="anim">
+                <br>Naruto is a Japanese Manga series written and illustrated by Masashi Kishimoto.<br>
+                It follows the story of a young boy seeking the recognition from his fellow ninjas with his dream to become the Hokage, leader of his village.<br>
+                <br>
+                Twelve years before the start of the series, the ninja village of Konoha was attacked by the Nine-Tailed Demon Fox.<br>
+                The village was only saved from complete destruction by the actions of Konoha's leader, the Fourth Hokage, who sacrificed his life to seal the Nine-Tails into a newborn: Naruto Uzumaki.<br>
+                Orphaned by the attack, Naruto grew up shunned by most of the villagers, who hated and feared him because of the Nine-Tails trapped within him.<br>
+                <br>
+                The Naruto series has been adapted into a long running Anime (divided into two parts), and multiple highly praised video games. The sequel "Boruto: The Next Generation" picks up years later, and is still ongoing.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QczGoCmX-pI?si=07N9x6NTcXiOQGUk" title="ROAD OF NARUTO 20th Anniversary" allowfullscreen class="anim"></iframe> <!--  YouTube (Vizmedia, 2022) -->
+            <a href="https://www.crunchyroll.com/series/GY9PJ5KWR/naruto" class="btn anim">Watch now!</a>
+        </div>
+        <img src="img/Naruto_Uzumaki.png" id="rasengan" alt="Child Naruto Uzumaki" class="feature-img"> <!-- .png from Hero Fandom website -->
+    </div>
+    <footer>
+        <div class="content">
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+            </a>
+            NARUTO © 1999 by Masashi Kishimoto/SHUEISHA Inc.
+        </p>
+    </div>
+    </footer>
+</body>
+</html>
